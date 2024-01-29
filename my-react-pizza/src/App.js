@@ -1,5 +1,6 @@
 import React from 'react';
 import './scss/app.scss';
+import pizza from './assets/pizza.json';
 
 import Header from './components/Header.jsx';
 import Sort from './components/Sort.jsx';
@@ -18,9 +19,11 @@ function App() {
         </div>
         <h2 className="content__title">Все пиццы</h2>
         <div className="content__items">
-          <PizzaBlock title="Мексиканская" prise={400} />
-          <PizzaBlock title="4 сыра" prise={350} />
-          <PizzaBlock title="Гавайская" prise={420} />
+          {
+            pizza.map((element) => ( 
+              <PizzaBlock title="Мексиканская" prise={400}/>
+            ))
+          }
         </div>
       </div>
     </div>
