@@ -21,7 +21,7 @@ function App() {
         <div className="content__items">
           {
             pizza.map((element) => ( 
-              <PizzaBlock title="Мексиканская" prise={400}/>
+              <PizzaBlock title={element.title} prise={element.prise} imageURL={element.imageUrl}/>
             ))
           }
         </div>
