@@ -1,6 +1,11 @@
 import React from 'react';
 
-function PizzaBlock({ title, price, imageURL }) {
+function PizzaBlock({ title, price, imageURL, size }) {
+
+    const [activeSize, setActiveSize] = React.useState(0);
+    const onClickSize = (param) => {
+        setActiveSize(param);
+    }
 
     return (
         <div className="pizza-block">
@@ -16,9 +21,14 @@ function PizzaBlock({ title, price, imageURL }) {
                 <li>традиционное</li>
             </ul>
             <ul>
-                <li className="active">26 см.</li> 
+                {
+                    size.map((el, i) => (
+                        <li onClick={() => onClickSize(i)} className={activeSize === i ? 'active' : ''}> {el} см.</li>
+                    ))
+                }
+                {/* <li className="active">26 см.</li> 
                 <li>30 см.</li>
-                <li>40 см.</li>
+                <li>40 см.</li> */}
             </ul>
         </div>
         <div className="pizza-block__bottom">
@@ -31,7 +41,7 @@ function PizzaBlock({ title, price, imageURL }) {
                         />
                     </svg>
                     <span>Добавить</span>
-                    
+                    <i>0</i>
                 </button>
             </div>
         </div>
