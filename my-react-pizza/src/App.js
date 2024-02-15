@@ -21,10 +21,13 @@ function App() {
         <div className="content__items">
           {
             pizza.map((element) => ( 
-              <PizzaBlock title={element.title} 
-              prise={element.prise} 
-              imageURL={element.imageUrl} 
-              size={element.sizes}/>
+              <PizzaBlock 
+                title={element.title} 
+                prise={element.prise} 
+                imageURL={element.imageUrl} 
+                size={element.sizes}
+                type={element.types}
+              />
             ))
           }
         </div>
