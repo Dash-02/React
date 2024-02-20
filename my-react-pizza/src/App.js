@@ -7,14 +7,18 @@ import Categories from './components/Categories.jsx';
 import PizzaBlock from './components/PizzaBlock.jsx';
 
 function App() {
+  
   let [items, setItems] = React.useState([]);
-  fetch('https://65d118f5ab7beba3d5e4176b.mockapi.io/items')
-    .then((res) => {
-    return res.json();
-  })
-  .then((arr) => {
-    setItems(arr)
-  })
+
+  React.useEffect(() => {
+    fetch('https://65d118f5ab7beba3d5e4176b.mockapi.io/items')
+      .then((res) => {
+      return res.json();
+    })
+    .then((arr) => {
+      setItems(arr)
+    })
+  }, []);
 
   return (
     <div className="wrapper">
