@@ -32,9 +32,9 @@ function App() {
         <h2 className="content__title">Все пиццы</h2>
         <div className="content__items">
           {
-            items.map((element) => ( 
+            items.length !== 0?  items.map((element) => ( 
               <PizzaBlock key={element.id} {...element}/>
-            ))
+            )):<div>загрузка данных</div>
           }
         </div>
       </div>
