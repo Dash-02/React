@@ -3,6 +3,7 @@ import './scss/app.scss';
 
 import Header from './components/Header.jsx';
 import Home from './pages/Home.jsx';
+import NotFound from './pages/NotFound.jsx';
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
     <Header />
     <div className="content">
       <div className="container">
-      <Home/>
+      {/* <Home/> */}
+      <NotFound/>
       </div>
     </div>
   </div>
