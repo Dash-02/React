@@ -12,6 +12,9 @@ const NotFoundBlock = () => {
                 <br />
                 Not found 
             </h1>
+            <p className={styles.description}>
+                К сожалению, данная страница отсутвует
+            </p>
         </div>
     );
 }
