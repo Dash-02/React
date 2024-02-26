@@ -1,5 +1,12 @@
 import React from 'react';
 import './scss/app.scss';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Routes,
+  Link
+} from "react-router-dom";
 
 import Header from './components/Header.jsx';
 import Home from './pages/Home.jsx';
@@ -12,8 +19,9 @@ function App() {
     <Header />
     <div className="content">
       <div className="container">
-      {/* <Home/> */}
-      <NotFound/>
+        <Routes>
+          
+        </Routes>
       </div>
     </div>
   </div>
