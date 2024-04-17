@@ -1,0 +1,15 @@
+.home {
+    background: linear-gradient(to bottom, #8BC0FF, #6C8AD5);
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    height: 2px;
+    width: 1690px;
+
+    opacity: 24%;
+    background-color: #fff;
+}

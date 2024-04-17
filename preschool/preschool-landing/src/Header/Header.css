@@ -1,0 +1,58 @@
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.header {
+    height: 65px;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.logo {
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+}
+
+button {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 16px;
+    color: #fff;
+
+    background: linear-gradient(to right, #D660CC, #9F4CEB);
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-logo {
+    width: 140px;
+    height: 25px;
+}
+
+.btn-login button {
+    height: 40px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    width: 690px;
+    height: 40px;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin: 10px;
+}
+
