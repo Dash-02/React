@@ -2,6 +2,13 @@
     background: linear-gradient(to bottom, #8BC0FF, #6C8AD5);
     height: 100vh;
 
+    color: #fff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    
+    
+}
+
+.container {
     display: flex;
     justify-content: center;
 }
@@ -12,4 +19,13 @@
 
     opacity: 24%;
     background-color: #fff;
+}
+
+.yellow-text {
+    color: #FFEDB5;
+}
+
+.img-books {
+    height: 600px;
+    width: 560px;
 }
