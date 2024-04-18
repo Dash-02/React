@@ -14,9 +14,9 @@ function Header() {
         </div>
         <nav>
             <a href="Main">Главная</a>
-            <a href="Main">Родителям</a>
-            <a href="Main">Детям</a>
-            <a href="Main">Преподавателям</a>
+            <a href="parents">Родителям</a>
+            <a href="preschooler">Детям</a>
+            <a href="teacher">Преподавателям</a>
         </nav>
         <div className="btn-login">
             <button>Войти в личный кабинет</button>
