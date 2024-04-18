@@ -8,7 +8,7 @@ import whatsapp from '../assets/icons/watsapp.svg';
 
 function Home() {
     return (
-        <div className="home">
+        <section className="home">
             <Header />
             <div className="line"></div>
             <div className="container">
@@ -27,7 +27,7 @@ function Home() {
                 </div>
                 <img className="img-books" src={imgBooks} alt="books" />
             </div>
-        </div>
+        </section>
     )
 }
 
