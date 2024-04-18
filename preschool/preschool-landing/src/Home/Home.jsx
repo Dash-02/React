@@ -10,16 +10,16 @@ function Home() {
     return (
         <section className="home">
             <Header />
-            <div className="line"></div>
+            {/* <div className="line"></div> */}
             <div className="container">
                 <div className="content">
                     <h1>Онлайн-платформа для <span className="yellow-text">дошкольного</span> образования</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
                     <img src={imgArrow} alt="arrow" />
             
                     <button>Записаться на обучение</button>
                 
-                    <div>
+                    <div className="social_media">
                         <p>или написать:</p>
                         <img src={tg} alt="telegram" />
                         <img src={whatsapp} alt="whatsApp" />

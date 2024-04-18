@@ -1,10 +1,14 @@
-/* .content {
+.container-header {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-} */
+    align-items: center;
+    height: 65px;
+    width: 85%;
+}
 
 .header {
-    height: 65px;
+    width: 99%;
 
     display: flex;
     justify-content: space-around;
@@ -13,13 +17,19 @@
 
 .logo {
     display: flex;
-   justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
+    width: 45%;
+}
+
+.img-logo {
+    width: 45px;
+    height: 45px;
 }
 
 button {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
 
     background: linear-gradient(to right, #D660CC, #9F4CEB);
@@ -34,25 +44,38 @@ button {
 }
 
 .btn-login button {
-    height: 40px;
-    
+    width: 47%;
+    height: 35px;
+}
+
+.btn-login {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    align-items: center;
 
-    width: 690px;
+    width: 150%;
     height: 40px;
-    display: none;
 }
 
 a {
     text-decoration: none;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     color: #fff;
-    margin: 10px;
+    
 }
 
+.line {
+    height: 2px;
+    width: 100%;
+
+    opacity: 24%;
+    background-color: #fff;
+}

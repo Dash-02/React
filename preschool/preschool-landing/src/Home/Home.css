@@ -4,6 +4,10 @@
 
     color: #fff;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -11,13 +15,13 @@
     justify-content: center;
 }
 
-.line {
+/* .line {
     height: 2px;
-    width: 1690px;
+    width: 95%;
 
     opacity: 24%;
     background-color: #fff;
-}
+} */
 
 .yellow-text {
     color: #FFEDB5;
@@ -26,4 +30,9 @@
 .img-books {
     height: 600px;
     width: 560px;
+}
+
+.social_media {
+    display: flex;
+    justify-content: space-around;
 }

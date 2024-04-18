@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+.cards {
+    flex-direction: row;
+}
+
 .card {
     width: 310px;
     height: 450px;
