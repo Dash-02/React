@@ -8,13 +8,13 @@
 
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    align-items: center;
 }
 
 .logo {
-    /* display: flex;
-    justify-content: center;
-    text-align: center; */
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
 }
 
 button {
