@@ -24,14 +24,17 @@ function Header() {
                 </div>
                 <div className="menu">
                     <input type="checkbox" id="burger-checkbox" className="burger-checkbox"/>
-                    <label for="burger-checkbox" className="burger"></label>
+                    <label htmlFor="burger-checkbox" className="burger"></label>
                     <nav className="menu-list">
-                        <a href="#home">Главная</a>
-                        <a href="#parents">Родителям</a>
-                        <a href="#preschooler">Детям</a>
-                        <a href="#teacher">Преподавателям</a>
-                        <button>Войти в личный кабинет</button>
-                        <button>Зарегистрироваться</button>
+                        <div className="menu-items">
+                            <a href="#home">Главная</a>
+                            <a href="#parents">Родителям</a>
+                            <a href="#preschooler">Детям</a>
+                            <a href="#teacher">Преподавателям</a>
+                            <button>Войти в личный кабинет</button>
+                            <button>Зарегистрироваться</button>
+                        </div>
+                        <div className="menu-bottom"></div>
                     </nav>
                 </div>
             </section>

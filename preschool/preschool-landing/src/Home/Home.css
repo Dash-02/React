@@ -15,30 +15,37 @@
     justify-content: center;
 }
 
-@media (width <= 720px) {
+@media (width <= 1200px) {
     .container {
         flex-wrap: wrap;
-    }    
+    }
+    .img-books {
+        height: 600px;
+        width: 560px;
+    }
 }
 
-/* .line {
-    height: 2px;
-    width: 95%;
-
-    opacity: 24%;
-    background-color: #fff;
-} */
+.content {
+    width: 50%;
+}
 
 .yellow-text {
     color: #FFEDB5;
 }
 
-.img-books {
-    height: 600px;
-    width: 560px;
+.wrapper_social_media {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    width: 50%;
 }
 
 .social_media {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+
 }
