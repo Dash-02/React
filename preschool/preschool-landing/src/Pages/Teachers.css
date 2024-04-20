@@ -42,3 +42,14 @@
     width: 300px;
     height: 50px;
 }
+
+@media (width <= 500px) {
+    .man {
+        display: none;
+    }
+
+    .man2 {
+        width: 300px;
+        height: 430px;
+    }
+}

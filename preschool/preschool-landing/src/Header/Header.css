@@ -23,7 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 35%;
 }
 
 .container-header::before {
@@ -48,7 +48,7 @@
 
 button {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
 
     background: linear-gradient(to right, #D660CC, #9F4CEB);
@@ -96,7 +96,7 @@ nav {
 a {
     text-decoration: none;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
     transition: filter 0.3s;
 }
@@ -217,6 +217,23 @@ a:active {
     transform: translateX(0);
 }
 
+@media (width > 1900px) {
+    .btn-login button {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    .logo {
+       
+        button {
+            font-size: 16px;
+        }
+    }
+}
+
 @media (width > 720px) {
     .menu {
         display: none;
@@ -239,7 +256,7 @@ a:active {
 
 @media (width <= 1200px) {
     .btn-login button {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .logo {
@@ -262,7 +279,14 @@ a:active {
 
     .logo {
         width: 50%;
-    }   
+        button {
+            font-size: 13px;
+        }
+    }
+    
+    a {
+        font-size: 13px;
+    }
 }
 
 @media (width <= 720px) {
