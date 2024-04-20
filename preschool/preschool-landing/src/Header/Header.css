@@ -227,7 +227,6 @@ a:active {
     }
 
     .logo {
-       
         button {
             font-size: 16px;
         }
@@ -304,6 +303,10 @@ a:active {
 
 @media (width <= 320px) {
     .logo {
-        width: 100%;
+        width: 40%;
+    }
+    .btn-logo {
+        width: 90px;
+        height: 25px;
     }
 }

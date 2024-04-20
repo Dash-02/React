@@ -31,15 +31,10 @@
 }
 
 .text_wrapper {
-   
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
-    div {
-        width: 75%;
-    }
 }
 
 h1 {
@@ -86,6 +81,15 @@ h1 {
     }
 }
 
+@media (width <= 1500px) {
+    .wrapper_social_media button {
+        font-size: 22px;
+    }
+    .img-arrow {
+        margin-top: 5%;
+    }
+}
+
 @media (width <= 1200px) {
     .container {
         flex-wrap: wrap;
@@ -94,9 +98,46 @@ h1 {
         height: 600px;
         width: 560px;
     }
-
-    .text-wrapper span{
+    .text_wrapper {
         font-size: 16px;
+    }
+    .img-arrow {
+        margin-top: 1%;
+    }
+}
+
+@media (width <= 1080px) {
+    h1 {
+        font-size: 40px;
+    }
+    .content-wrapper button {
+        font-size: 18px;
+    }
+    .content-wrapper {
+        font-size: 16px;
+    }
+    .img-arrow {
+        width: 105px;
+        height: 142px;
+    }
+}
+
+@media (width <= 720px) {
+    .content {
+        width: 80%;
+        height: 40%;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .img-arrow {
+        width: 85px;
+        height: 122px;
+    }
+    .content-wrapper button {
+        font-size: 14px;
+
+        width: 80%;
     }
 }
 
@@ -108,6 +149,15 @@ h1 {
 }
 
 @media (width <= 320px) {
+    .content {
+        width: 40%;
+        height: 50%;
+        
+        font-size: 9px;
+    }
+    h1 {
+        font-size: 20px;
+    }
     .img-books {
         height: 360px;
         width: 300px;
