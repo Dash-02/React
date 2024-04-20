@@ -38,7 +38,7 @@ function Header() {
                     </nav>
                 </div>
             </section>
-            <div className="line"></div>
+            {/* <div className="line"></div> */}
         </div>
     )
 }
